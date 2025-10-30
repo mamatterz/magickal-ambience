@@ -6,4 +6,31 @@
     <title id="pageTitle">Magickal Ambience</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/icon.png" />
+    <link href="https://fonts.googleapis.com/css2?family==Cinzel:wght@400;700&display==swap" rel="stylesheet">
   </head>
+  
+  <body>
+    <div id="background" ></div>
+    
+    <div class="overlay">
+      <h1 id="ambienceTitle">Page Title</h1>
+      <p id= "ambienceSubtitle">Subtitle of the ambience</p>
+    </div>
+    
+    <section id="soundboard">
+      <h2>Sound Mixer</h2>
+      <div id="soundbuttons"></div>
+    </section>
+    
+    <section id="timer">
+      <h2>Focus Timer</h2>
+      <input type="number" id="minutesInput" value="10" min="1" /> min
+      <button id="startTimer">Start</button>
+      <div id="timerDisplay">10:00</d>
+    </section>
+    
+    <canvas id="particles"></canvas>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
