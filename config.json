@@ -1,0 +1,11 @@
+{
+  "title": "The Shadow Temple",
+  "subtitle": "In the dark",
+  "background": "assets/bg.jpg",
+  "accent": "#8b3ae2",
+  "sounds": [
+    {"name": "Fire", "file": "assets/sounds/fire.mp3", "volume": 0.6},
+    {"name": "Chant", "file": "assets/sounds/chant.mp3", "volume": 0.4},
+    {"name": "Wind", "file": "assets/sounds/wind.mp3", "volume": 0.3},
+  ]
+}
