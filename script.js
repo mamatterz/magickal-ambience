@@ -4,7 +4,7 @@ fetch('config.json')
   documment.getElementById('ambienceTitle').innerText = config.title;
   document.getElementById('ambienceSubtitle').innerText = config.subtitle;
   document.getElementById('pageTitle').innerText = config.title;
-  document.getElementById('background').style.backgroundImage = 'url('${confif.background}')';
+  document.getElementById('background').style.backgroundImage = 'url('${config.background}')';
   document.documentElement.style.setProperty('--accent', config.accent);
   loadSounds(config.sounds);
 });
