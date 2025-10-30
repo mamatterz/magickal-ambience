@@ -4,6 +4,6 @@
   "background": "assets/backgrounds/rose-5974372_1920.jpg",
   "accent": "#8b3ae2",
   "sounds": [
-    {"name": "Wind", "file": "assets/sounds/wind.mp3", "volume": 0.3},
+    {"name": "Wind", "file": "assets/sounds/538197__highpeakemma__wind-in-the-trees-with-birds.m4a", "volume": 0.3},
   ]
 }
